@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{{>links}}
+</head>
+<body>
+ {{>navbar}} 
+      <!-- MAIN BODY OF WEBSITE -->
+      <div class="row" style="margin-top: 100px; padding: 10%;">
+
+        <div class="col-6 body-left">
+            <h5>WELCOME TO MY WEATHER APP</h5>
+
+            <h3>Get An Latest Update On The <span style="color: red;"> Weather </span>Of Your City</h3>
+
+            <button style="border-radius: 8PX; border: 3px solid green;background: red;"> Click Here To View Weather Forcasts</button>
+        </div>
+
+<div class="col-6 right-body">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.ctfassets.net/hrltx12pl8hq/6TIZLa1AKeBel0yVO7ReIn/1fc0e2fd9fcc6d66b3cc733aa2547e11/weather-images.jpg?fit=fill&w=600&h=400" style="height: 300px;"  class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://t3.ftcdn.net/jpg/04/40/06/92/360_F_440069273_2lStitbQvoaYnzBJyO1PxBqjPbdFOMeH.jpg" style="height: 300px;"  class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://t4.ftcdn.net/jpg/05/94/74/99/360_F_594749982_hc3zdXWq4ck4U5sTROHVYpExHZKyjzu4.jpg"  style="height: 300px;" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon visually-hidden" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon visually-hidden" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+
+      </div>
+
+
+{{>footer}}
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Oswald:wght@300&display=swap');
+*{margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: ' cursive';
+
+}
+
+
+
+:root{
+    /* Delcaring variables in css for easy */
+    --main-bg:rgb(41, 41, 97)
+    --main-color: limegreen
+
+}
+
+html{
+    /* font for the whole file */
+    font-size: 78%; 
+}
+
+.navbar{
+    background-color: rgba(26, 24, 24, 0.85);
+
+}
+
+.navbar-toggler-icon{ 
+ /* Chnaging colour of the burger icon */
+    background: rgb(166, 166, 166);
+}
+
+
+.navbar a{
+    color: white;
+    font: 2rem;
+}
+
+.navbar a:hover{
+    color: red;
+}
+
+.body-left{
+    
+margin-top: 10px;
+height: fit-content;
+
+display: flex;
+
+flex-direction: column;
+
+}
+
+
+.body-right{
+
+    margin-top: 10px;
+
+    display: flex;
+
+flex-direction: column;
+
+}
+
+
+.input-data{
+ padding: 20px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+
+.toplayer{
+font-size: 2rem;
+    color: rgb(61, 44, 21);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.main{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle{
+    font-size: 3rem;
+    color: black;
+    padding-left: 10px;
+    display: flex; 
+    gap: 18px;
+    justify-content: center;
+
+}
+
+
+
+
+
+.footer{
+    background: wheat;
+    text-align: center;
+  bottom: 0px;
+  position: absolute;
+    width: 100vw;
+    line-height: 2rem;
+}
